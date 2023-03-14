@@ -1,5 +1,11 @@
 # How to run the program
 
+Installing dependencies:
+
+    go mod download
+    go mod vendor
+    go mod tidy
+
 Run this command
 
     go run ./ wallet_address
